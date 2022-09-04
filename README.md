@@ -38,6 +38,7 @@
     3. 주문하기
     
     
+    
     1. 음식점 등록 및 조회
         - 음식점 정보 입력받아 등록
             1. 음식점 이름 (name)
@@ -54,9 +55,7 @@
                 1. 등록 시 입력한 음식점 정보 (name, minOrderPrice, deliveryFee)
                 2. DB 테이블 ID (id)  
                 
-        
-<!--         [API 명세서](https://www.notion.so/e3bdc035a63347ba9deb13b572e3ac31) -->
-        
+
     2. 음식 등록 및 메뉴판 조회
         - 음식점 ID 및 음식 정보 입력받아 등록
             1. 음식점 ID (restaurantId)
@@ -73,8 +72,6 @@
                 1. 등록 시 입력한 음식 정보 (name, price)
                 2. DB 테이블 ID (id)
                 
-        
-<!--         [API 명세서](https://www.notion.so/c55eb48e6b3c4a9a99f9d9308cb75944) -->
         
     3. 주문 요청하기 및 주문 조회
         - 주문 요청 시 배달 음식점 및 음식 정보 입력받음
@@ -102,8 +99,7 @@
                 
         - 주문 조회
             - 그동안 성공한 모든 주문 요청을 조회 가능
-        
-<!--         [API 명세서](https://www.notion.so/074db7dd54514f6c802e841fbec94a1e) -->
+
         
     
 - `과제 요구 사항` 검증을 위한 테스트 코드
