@@ -22,36 +22,13 @@
     4. 실무에서 진행되는 다양하고 복잡한 요건 등을 충족하기 위해  API 설계, DB 설계에 많은 고민이 필요함을 느낄 수 있어요.
     
 
-❗ 우리는 이번 주차에는 API만 개발하면 됩니다! 프론트엔드 영역은 고민하실 필요가 없어요!
 
-<aside>
-🚩 **Requirement:  과제에 요구되는 사항이에요**
-
-</aside>
-
-배달앱 한 번씩은 사용해 보셨죠? 여러분은 이번 과제를 통해 배달앱의 백엔드 서버 개발자가 되어 배달앱 서버에 필요한 핵심 API 를 구현해 볼 예정입니다.
-
-- `과제 요구 사항`을 모두 완수해야 합니다!
-    
     <aside>
     ✅ 과제 요구 사항
     
     </aside>
     
-    스프링 서버를 통해  아래 요구사항에 맞춰 배달앱 API 를 구현합니다. 크게 3개의 요구사항으로 나뉘어져 있고, 제공되는 테스트 코드가 모두 성공적으로 작동하게 되면 과제 완료입니다! 
-    
-    - 테스트 코드 실행을 위해 build.gradle 파일에 아래 내용 추가
-        
-        ```json
-        dependencies {
-        		// Lombok 라이브러리
-            compileOnly 'org.projectlombok:lombok'
-        		// 스프링 부트 라이브러리
-            implementation 'org.springframework.boot:spring-boot-starter-web'
-        		// 스프링 부트 테스트를 위한 라이브러리
-            testImplementation 'org.springframework.boot:spring-boot-starter-test'
-        }
-        ```
+    스프링 서버를 통해 아래 요구사항에 맞춰 배달앱 API 를 구현합니다. 크게 3개의 요구사항으로 나뉘어져 있고, 제공되는 테스트 코드가 모두 성공적으로 작동하게 되면 완료
         
     
     **[요구사항]**
@@ -60,14 +37,6 @@
     2. 음식 등록 및 메뉴판 조회
     3. 주문하기
     
-    UI 개발 없이 백엔드 서버를 개발해야 하기 때문에, 각 API 에서 제공되는 데이터들이 어떻게 사용될지는 아래 배달앱 샘플 UI 를 참고합니다. 
-    
-    <aside>
-    🚨 주의! 샘플 UI 는 이해를 돕기 위한 것으로 실제 요구사항과 다를 수 있습니다. 반드시 과제 요구사항 내용에 맞춰 구현 해 주세요.
-    
-    </aside>
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d02b62b2-a4b1-4225-985b-06c4566263b9/Untitled.png)
     
     1. 음식점 등록 및 조회
         - 음식점 정보 입력받아 등록
@@ -86,7 +55,7 @@
                 2. DB 테이블 ID (id)  
                 
         
-        [API 명세서](https://www.notion.so/e3bdc035a63347ba9deb13b572e3ac31)
+<!--         [API 명세서](https://www.notion.so/e3bdc035a63347ba9deb13b572e3ac31) -->
         
     2. 음식 등록 및 메뉴판 조회
         - 음식점 ID 및 음식 정보 입력받아 등록
@@ -105,7 +74,7 @@
                 2. DB 테이블 ID (id)
                 
         
-        [API 명세서](https://www.notion.so/c55eb48e6b3c4a9a99f9d9308cb75944)
+<!--         [API 명세서](https://www.notion.so/c55eb48e6b3c4a9a99f9d9308cb75944) -->
         
     3. 주문 요청하기 및 주문 조회
         - 주문 요청 시 배달 음식점 및 음식 정보 입력받음
@@ -134,7 +103,7 @@
         - 주문 조회
             - 그동안 성공한 모든 주문 요청을 조회 가능
         
-        [API 명세서](https://www.notion.so/074db7dd54514f6c802e841fbec94a1e)
+<!--         [API 명세서](https://www.notion.so/074db7dd54514f6c802e841fbec94a1e) -->
         
     
 - `과제 요구 사항` 검증을 위한 테스트 코드
