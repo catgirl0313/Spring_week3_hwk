@@ -150,25 +150,3 @@
     - 3. `주문하기 및 조회` 테스트코드
         
         
-    
-    - 샘플) 테스트 패키지 내 파일 구성
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e670d64-ef02-4210-8165-1b3e16a439b6/Untitled.png)
-        
-    - 테스트 코드 실행 위해 build.gradle 파일에 아래 내용 추가dependencies {
-    		// 테스트 코드를 위한 Lombok 라이브러리
-    		testCompileOnly 'org.projectlombok:lombok:1.18.12'
-        testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
-    		// 스프링 부트 테스트를 위한 라이브러리
-        testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    }
-        
-        ```json
-        
-        ```
-        
-    - 샘플) 테스트 수행 성공 결과
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80b68375-bf55-4e56-9281-6c09cadf09a4/Untitled.png)
-        
-
